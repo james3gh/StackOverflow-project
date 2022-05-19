@@ -1,0 +1,40 @@
+/* Display comment container */
+
+.display-comment {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.112);
+}
+
+.display-comment p {
+  font-size: 14px;
+  line-height: 1px;
+  white-space: pre-line;
+}
+
+.question-actions-user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-actions-user button,
+.edit-question-btn {
+  background-color: transparent;
+  border: none;
+  padding: 5px 0px;
+  margin: 0px 10px 0px 0px;
+  text-decoration: none;
+  color: #939292;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.question-actions-user button:active {
+  border-bottom: solid 2px black;
+}
+.question-actions-user div:nth-child(2) p,
+.question-actions-user div:nth-child(2) .user-link {
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0%;
+}
