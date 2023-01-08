@@ -96,7 +96,7 @@ const HomeMainbar = () => {
       </div>
       <div>
         {questionsList.data === null ? (
-          <h1>Loading...</h1>
+          <h1>Loading...free DB takes time. Wait for 30 sec :)</h1>
         ) : (
           <>
             <p>{questionsList.data.length} questions</p>
